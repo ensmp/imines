@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>serveur-eleves</key>
+	<string>http://192.168.1.108:8000/</string>
+	<key>liste-trombi-json</key>
+	<string>people/json</string>
+	<key>photo-mini-eleve</key>
+	<string>people/%@/thumb</string>
+	<key>serveur-eleves-login</key>
+	<string>accounts/login/?next=../../people/json</string>
+	<key>serveur-vdm</key>
+	<string>http://vdm.mediamines.fr/imines.php?action=</string>
+	<key>vdm-writecomm</key>
+	<string>writecomm</string>
+	<key>vdm-readcomm</key>
+	<string>readcomm&amp;id=%d</string>
+	<key>vdm-writenew</key>
+	<string>write</string>
+	<key>vdm-like</key>
+	<string>like&amp;key=%@&amp;id=%d</string>
+	<key>vdm-dislike</key>
+	<string>dislike&amp;key=%@&amp;id=%d</string>
+	<key>vdm-readpage</key>
+	<string>read&amp;page=%d</string>
+	<key>vdm-secretkey</key>
+	<string>8057284fbde0738117767f5deebfc816</string>
+</dict>
+</plist>
