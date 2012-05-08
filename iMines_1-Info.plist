@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>fr_FR</string>
+	<key>CFBundleDisplayName</key>
+	<string>iMines</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>iMines_icon.png</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>iMines_icon.png</string>
+		<string>iMines_icon_HiRes.png</string>
+		<string>iMines_icon_iPad.png</string>
+	</array>
+	<key>CFBundleIdentifier</key>
+	<string>fr.francoisdelataste.imines</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>FDLT</string>
+	<key>CFBundleVersion</key>
+	<string>1.6</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainWindow</string>
+	<key>NSMainNibFile~ipad</key>
+	<string>MainWindow-iPad</string>
+	<key>UILaunchImageFile</key>
+	<string>SplashScreen2.png</string>
+	<key>UIPrerenderedIcon</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
