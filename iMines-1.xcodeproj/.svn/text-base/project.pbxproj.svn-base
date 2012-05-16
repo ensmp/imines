@@ -1,0 +1,1185 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F008EB811EF16540012D84E /* logo_MP.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F008EB711EF16540012D84E /* logo_MP.png */; };
+		0F0CCF56124119ED002C8C08 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CCF55124119ED002C8C08 /* CFNetwork.framework */; };
+		0F0CCF58124119F8002C8C08 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CCF57124119F8002C8C08 /* SystemConfiguration.framework */; };
+		0F0CCF5A12411A00002C8C08 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CCF5912411A00002C8C08 /* MobileCoreServices.framework */; };
+		0F0CCF5C12411A1A002C8C08 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CCF5B12411A1A002C8C08 /* libz.1.2.3.dylib */; };
+		0F0CD0A412412443002C8C08 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CD09312412443002C8C08 /* ASIAuthenticationDialog.m */; };
+		0F0CD0A512412443002C8C08 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CD09612412443002C8C08 /* ASIDownloadCache.m */; };
+		0F0CD0A612412443002C8C08 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CD09812412443002C8C08 /* ASIFormDataRequest.m */; };
+		0F0CD0A712412443002C8C08 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CD09A12412443002C8C08 /* ASIHTTPRequest.m */; };
+		0F0CD0A812412443002C8C08 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CD09E12412443002C8C08 /* ASIInputStream.m */; };
+		0F0CD0A912412443002C8C08 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CD0A012412443002C8C08 /* ASINetworkQueue.m */; };
+		0F0CD0AA12412443002C8C08 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CD0A312412443002C8C08 /* Reachability.m */; };
+		0F0CD0E212415E9C002C8C08 /* histoire.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CD0E112415E9C002C8C08 /* histoire.html */; };
+		0F0CD10212416BA6002C8C08 /* effectifs.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F0CD10112416BA6002C8C08 /* effectifs.html */; };
+		0F0E823D11F88EED00F000F3 /* LaDirectionTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0E823C11F88EED00F000F3 /* LaDirectionTVC.m */; };
+		0F0F913011F6E3A700155287 /* partenairesinternationaux.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F912A11F6E3A700155287 /* partenairesinternationaux.html */; };
+		0F0F913111F6E3A700155287 /* partenairesnationaux.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F912B11F6E3A700155287 /* partenairesnationaux.html */; };
+		0F0F913511F6E3A700155287 /* reseaux.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F912F11F6E3A700155287 /* reseaux.html */; };
+		0F0F916511F6E58D00155287 /* CarrieresTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F916311F6E58D00155287 /* CarrieresTVC.m */; };
+		0F0F91FD11F6EE3500155287 /* ChiffresCles.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F91FC11F6EE3500155287 /* ChiffresCles.m */; };
+		0F0F923311F6F6CC00155287 /* budget.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F923111F6F6CC00155287 /* budget.html */; };
+		0F0F923411F6F6CC00155287 /* budget.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F923211F6F6CC00155287 /* budget.jpg */; };
+		0F0F926011F6F8A900155287 /* budget.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F925F11F6F8A900155287 /* budget.pdf */; };
+		0F0F926211F6F98700155287 /* budget.rtfd.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F926111F6F98700155287 /* budget.rtfd.zip */; };
+		0F0F926611F6F9DD00155287 /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0F926411F6F9DD00155287 /* DocumentViewController.m */; };
+		0F0F926711F6F9DD00155287 /* DocumentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F926511F6F9DD00155287 /* DocumentViewController.xib */; };
+		0F0F929311F6FCAB00155287 /* implantations.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F929011F6FCAB00155287 /* implantations.html */; };
+		0F0F957611F8AE220004DED5 /* Direction.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F0F957511F8AE220004DED5 /* Direction.plist */; };
+		0F110FF511EE04550056AC6E /* PublicAccueilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F110FF311EE04550056AC6E /* PublicAccueilViewController.m */; };
+		0F110FF611EE04550056AC6E /* PublicAccueilViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F110FF411EE04550056AC6E /* PublicAccueilViewController.xib */; };
+		0F1508101201D89E007781CF /* PlanContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F15080E1201D89E007781CF /* PlanContactVC.m */; };
+		0F1508111201D89E007781CF /* PlanContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F15080F1201D89E007781CF /* PlanContactVC.xib */; };
+		0F15083D1201DC2F007781CF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F15083C1201DC2F007781CF /* MapKit.framework */; };
+		0F1508911201E4FD007781CF /* AnnotationMines.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1508901201E4FD007781CF /* AnnotationMines.m */; };
+		0F17D99D11FA3EB700ED5D61 /* SplashScreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F17D99C11FA3EB700ED5D61 /* SplashScreen2.png */; };
+		0F290F7A1204717D003DB454 /* StandardWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F290F781204717D003DB454 /* StandardWebView.m */; };
+		0F290F7B1204717D003DB454 /* StandardWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F290F791204717D003DB454 /* StandardWebView.xib */; };
+		0F2E715711F076E500263C77 /* iMines-icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F2E715611F076E500263C77 /* iMines-icon-2.png */; };
+		0F3ACB49129BE569002D52B1 /* athens.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F3ACB46129BE569002D52B1 /* athens.html */; };
+		0F3ACB4A129BE569002D52B1 /* etudiants-etrangers.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F3ACB47129BE569002D52B1 /* etudiants-etrangers.html */; };
+		0F3ACB4B129BE569002D52B1 /* S3-etranger.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F3ACB48129BE569002D52B1 /* S3-etranger.html */; };
+		0F44972612BCDC2B000A6027 /* icon_moru.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F44972512BCDC2B000A6027 /* icon_moru.png */; };
+		0F44972B12BCDC56000A6027 /* icon_zambinou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0F44972712BCDC56000A6027 /* icon_zambinou.jpg */; };
+		0F44972C12BCDC56000A6027 /* icon_MineShake.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F44972812BCDC56000A6027 /* icon_MineShake.png */; };
+		0F44972D12BCDC56000A6027 /* icon_kalimat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F44972912BCDC56000A6027 /* icon_kalimat.png */; };
+		0F44972E12BCDC56000A6027 /* icon_ceres.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F44972A12BCDC56000A6027 /* icon_ceres.png */; };
+		0F44973012BCDC94000A6027 /* article_jump.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F44972F12BCDC94000A6027 /* article_jump.html */; };
+		0F44973212BCDCA8000A6027 /* icon_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F44973112BCDCA8000A6027 /* icon_jump.png */; };
+		0F44973A12BCDD75000A6027 /* icone_biero.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F44973912BCDD75000A6027 /* icone_biero.png */; };
+		0F4895571260B2A300BD2E3F /* carrieres-administration.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895531260B2A300BD2E3F /* carrieres-administration.html */; };
+		0F4895581260B2A300BD2E3F /* carrieres-industrie.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895541260B2A300BD2E3F /* carrieres-industrie.html */; };
+		0F4895591260B2A300BD2E3F /* carrieres-politiques.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895551260B2A300BD2E3F /* carrieres-politiques.html */; };
+		0F48955A1260B2A300BD2E3F /* carrieres-sciences.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895561260B2A300BD2E3F /* carrieres-sciences.html */; };
+		0F4895691260B5EF00BD2E3F /* logo_MP_inv.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895681260B5EF00BD2E3F /* logo_MP_inv.png */; };
+		0F48956E1260C36C00BD2E3F /* anciens.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F48956D1260C36C00BD2E3F /* anciens.html */; };
+		0F4895A41260C8D100BD2E3F /* paristech.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895A01260C8D100BD2E3F /* paristech.html */; };
+		0F4895A51260C8D100BD2E3F /* institut-carnot.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895A11260C8D100BD2E3F /* institut-carnot.html */; };
+		0F4895A61260C8D100BD2E3F /* gem.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895A21260C8D100BD2E3F /* gem.html */; };
+		0F4895A71260C8D100BD2E3F /* armines.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895A31260C8D100BD2E3F /* armines.html */; };
+		0F4895AF1260C9D300BD2E3F /* carnot-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F4895AE1260C9D300BD2E3F /* carnot-small.png */; };
+		0F4895BC1260CD6400BD2E3F /* RechercheTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F4895BB1260CD6400BD2E3F /* RechercheTVC.m */; };
+		0F57012C123CD21600451246 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F57012B123CD21600451246 /* MessageUI.framework */; };
+		0F570172123D0B6F00451246 /* PetitCoursCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F570171123D0B6F00451246 /* PetitCoursCell.xib */; };
+		0F57019A123D111500451246 /* InscriptionPetitCoursVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F570198123D111500451246 /* InscriptionPetitCoursVC.m */; };
+		0F57019B123D111500451246 /* InscriptionPetitCoursVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F570199123D111500451246 /* InscriptionPetitCoursVC.xib */; };
+		0F5C50671204A1DE00286C4B /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F5C50661204A1DE00286C4B /* Settings.bundle */; };
+		0F60738B129D233600D16182 /* article_biero.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F60738A129D233600D16182 /* article_biero.html */; };
+		0F607391129D236100D16182 /* Article_zambinou.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F60738C129D236100D16182 /* Article_zambinou.html */; };
+		0F607392129D236100D16182 /* Article_Moru.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F60738D129D236100D16182 /* Article_Moru.html */; };
+		0F607393129D236100D16182 /* Article_MineShake.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F60738E129D236100D16182 /* Article_MineShake.html */; };
+		0F607394129D236100D16182 /* Article_kalimat.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F60738F129D236100D16182 /* Article_kalimat.html */; };
+		0F607395129D236100D16182 /* Article_CERES.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F607390129D236100D16182 /* Article_CERES.html */; };
+		0F66F8B511F613A0004645C8 /* GlobalTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F66F8B411F613A0004645C8 /* GlobalTabBarController.m */; };
+		0F66F90611F61C90004645C8 /* armines.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F90111F61C90004645C8 /* armines.gif */; };
+		0F66F90711F61C90004645C8 /* gem.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F90211F61C90004645C8 /* gem.gif */; };
+		0F66F90811F61C90004645C8 /* ParisTech.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F66F90311F61C90004645C8 /* ParisTech.png */; };
+		0F77ACBC126B4D8F00412454 /* lms.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACAC126B4D8F00412454 /* lms.html */; };
+		0F77ACBD126B4D8F00412454 /* isige.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACAD126B4D8F00412454 /* isige.html */; };
+		0F77ACBE126B4D8F00412454 /* csi.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACAE126B4D8F00412454 /* csi.html */; };
+		0F77ACBF126B4D8F00412454 /* caor.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACAF126B4D8F00412454 /* caor.html */; };
+		0F77ACC0126B4D8F00412454 /* cri.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB0126B4D8F00412454 /* cri.html */; };
+		0F77ACC1126B4D8F00412454 /* crc.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB1126B4D8F00412454 /* crc.html */; };
+		0F77ACC2126B4D8F00412454 /* cmm.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB2126B4D8F00412454 /* cmm.html */; };
+		0F77ACC3126B4D8F00412454 /* cma.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB3126B4D8F00412454 /* cma.html */; };
+		0F77ACC4126B4D8F00412454 /* cgs.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB4126B4D8F00412454 /* cgs.html */; };
+		0F77ACC5126B4D8F00412454 /* cerna.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB5126B4D8F00412454 /* cerna.html */; };
+		0F77ACC6126B4D8F00412454 /* cep.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB6126B4D8F00412454 /* cep.html */; };
+		0F77ACC7126B4D8F00412454 /* centre-materiaux.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB7126B4D8F00412454 /* centre-materiaux.html */; };
+		0F77ACC8126B4D8F00412454 /* cas.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB8126B4D8F00412454 /* cas.html */; };
+		0F77ACC9126B4D8F00412454 /* cemef.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACB9126B4D8F00412454 /* cemef.html */; };
+		0F77ACCA126B4D8F00412454 /* cbio.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACBA126B4D8F00412454 /* cbio.html */; };
+		0F77ACCB126B4D8F00412454 /* centre-geosciences.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F77ACBB126B4D8F00412454 /* centre-geosciences.html */; };
+		0F7FCE45129AEBC300FBE36C /* IntegrerTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FCE44129AEBC300FBE36C /* IntegrerTVC.m */; };
+		0F7FCEC5129AF47B00FBE36C /* ast.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCEC2129AF47B00FBE36C /* ast.html */; };
+		0F7FCEC6129AF47B00FBE36C /* ccmp.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCEC3129AF47B00FBE36C /* ccmp.html */; };
+		0F7FCEC7129AF47B00FBE36C /* corps.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCEC4129AF47B00FBE36C /* corps.html */; };
+		0F7FCEDE129AF4F000FBE36C /* MastersTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FCEDD129AF4F000FBE36C /* MastersTVC.m */; };
+		0F7FCEE3129AF5A000FBE36C /* generalitesMS.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCEDF129AF5A000FBE36C /* generalitesMS.html */; };
+		0F7FCEE4129AF5A000FBE36C /* MS_temps_partiel.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCEE0129AF5A000FBE36C /* MS_temps_partiel.html */; };
+		0F7FCEE5129AF5A000FBE36C /* MS_temps_plein.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCEE1129AF5A000FBE36C /* MS_temps_plein.html */; };
+		0F7FCEE6129AF5A000FBE36C /* postulerMS.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCEE2129AF5A000FBE36C /* postulerMS.html */; };
+		0F7FCF0F129AFA2700FBE36C /* candidatureDoctorat.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCF0B129AFA2600FBE36C /* candidatureDoctorat.html */; };
+		0F7FCF10129AFA2700FBE36C /* inscriptionDoctorat.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCF0C129AFA2700FBE36C /* inscriptionDoctorat.html */; };
+		0F7FCF11129AFA2700FBE36C /* nous-contacterDoctorat.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCF0D129AFA2700FBE36C /* nous-contacterDoctorat.html */; };
+		0F7FCF12129AFA2700FBE36C /* objectifs-et-orientationDoctorat.html in Resources */ = {isa = PBXBuildFile; fileRef = 0F7FCF0E129AFA2700FBE36C /* objectifs-et-orientationDoctorat.html */; };
+		0F7FCF15129AFA3700FBE36C /* DoctoratsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7FCF14129AFA3700FBE36C /* DoctoratsTVC.m */; };
+		0F8AD9AA11F231BD0013D561 /* ReseauxTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8AD9A811F231BD0013D561 /* ReseauxTableViewController.m */; };
+		0F9450B4125E18A400817DC4 /* Trombi.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 0F9450B3125E18A400817DC4 /* Trombi.xcdatamodel */; };
+		0F9450C2125E18C700817DC4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9450C1125E18C700817DC4 /* CoreData.framework */; };
+		0F9450CB125E273F00817DC4 /* Eleve.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F9450CA125E273F00817DC4 /* Eleve.m */; };
+		0FB54D53122D822A0054AE92 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FB54D52122D822A0054AE92 /* MainWindow-iPad.xib */; };
+		0FC054A2122C3D04000D1C57 /* PriveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC054A0122C3D04000D1C57 /* PriveViewController.m */; };
+		0FC054A3122C3D04000D1C57 /* PriveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FC054A1122C3D04000D1C57 /* PriveViewController.xib */; };
+		0FCD906E124673C800819206 /* DirectionZoomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD906C124673C800819206 /* DirectionZoomVC.m */; };
+		0FCD906F124673C800819206 /* DirectionZoomVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD906D124673C800819206 /* DirectionZoomVC.xib */; };
+		0FCD9DFF122D2E05002290A0 /* VDMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9DFD122D2E05002290A0 /* VDMViewController.m */; };
+		0FCD9E00122D2E05002290A0 /* VDMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9DFE122D2E05002290A0 /* VDMViewController.xib */; };
+		0FCD9E09122D2E96002290A0 /* BDEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E07122D2E96002290A0 /* BDEViewController.m */; };
+		0FCD9E0A122D2E96002290A0 /* BDEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E08122D2E96002290A0 /* BDEViewController.xib */; };
+		0FCD9E11122D2F92002290A0 /* BDSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E0F122D2F92002290A0 /* BDSViewController.m */; };
+		0FCD9E12122D2F92002290A0 /* BDSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E10122D2F92002290A0 /* BDSViewController.xib */; };
+		0FCD9E16122D30C8002290A0 /* BDAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E14122D30C8002290A0 /* BDAViewController.m */; };
+		0FCD9E17122D30C8002290A0 /* BDAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E15122D30C8002290A0 /* BDAViewController.xib */; };
+		0FCD9E1B122D30D7002290A0 /* VendomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E19122D30D7002290A0 /* VendomeViewController.m */; };
+		0FCD9E1C122D30D7002290A0 /* VendomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E1A122D30D7002290A0 /* VendomeViewController.xib */; };
+		0FCD9E25122D30FB002290A0 /* TrombiTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E23122D30FB002290A0 /* TrombiTVC.m */; };
+		0FCD9E26122D30FB002290A0 /* TrombiTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E24122D30FB002290A0 /* TrombiTVC.xib */; };
+		0FCD9E2A122D3113002290A0 /* EmploiDuTempsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E28122D3113002290A0 /* EmploiDuTempsTVC.m */; };
+		0FCD9E2B122D3113002290A0 /* EmploiDuTempsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E29122D3113002290A0 /* EmploiDuTempsTVC.xib */; };
+		0FCD9E2F122D313B002290A0 /* SGSTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E2D122D313B002290A0 /* SGSTVC.m */; };
+		0FCD9E30122D313B002290A0 /* SGSTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E2E122D313B002290A0 /* SGSTVC.xib */; };
+		0FCD9E36122D3155002290A0 /* CalendrierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E34122D3155002290A0 /* CalendrierViewController.m */; };
+		0FCD9E37122D3155002290A0 /* CalendrierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E35122D3155002290A0 /* CalendrierViewController.xib */; };
+		0FCD9E3B122D3167002290A0 /* AssosTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E39122D3167002290A0 /* AssosTVC.m */; };
+		0FCD9E3C122D3167002290A0 /* AssosTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E3A122D3167002290A0 /* AssosTVC.xib */; };
+		0FCD9E42122D3179002290A0 /* PetitsCoursTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FCD9E40122D3179002290A0 /* PetitsCoursTVC.m */; };
+		0FCD9E43122D3179002290A0 /* PetitsCoursTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCD9E41122D3179002290A0 /* PetitsCoursTVC.xib */; };
+		0FD6DD7211F607B200EC669B /* HTMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD6DD7011F607B200EC669B /* HTMLViewController.m */; };
+		0FD6DD7311F607B200EC669B /* HTMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FD6DD7111F607B200EC669B /* HTMLViewController.xib */; };
+		0FDA9AB71202E668005EE5A7 /* ActualitesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA9AB51202E668005EE5A7 /* ActualitesTVC.m */; };
+		0FDA9AB81202E668005EE5A7 /* ActualitesTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA9AB61202E668005EE5A7 /* ActualitesTVC.xib */; };
+		0FDA9BA1120329DE005EE5A7 /* TweeterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDA9BA0120329DE005EE5A7 /* TweeterCell.m */; };
+		0FDA9BA312032A62005EE5A7 /* TweeterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FDA9BA212032A62005EE5A7 /* TweeterCell.xib */; };
+		0FDC9761126C673100D4D644 /* valeurs.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FDC9760126C673000D4D644 /* valeurs.html */; };
+		0FDC979D126CE43D00D4D644 /* InternationalTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FDC979C126CE43D00D4D644 /* InternationalTVC.m */; };
+		0FDC97D7126CE84F00D4D644 /* cesure.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FDC97D2126CE84F00D4D644 /* cesure.html */; };
+		0FDC97D9126CE84F00D4D644 /* partir-avec-ecole.html in Resources */ = {isa = PBXBuildFile; fileRef = 0FDC97D4126CE84F00D4D644 /* partir-avec-ecole.html */; };
+		0FF5A89B11EE277B00B82896 /* SurLaMine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5A89911EE277B00B82896 /* SurLaMine.m */; };
+		0FF5A89C11EE277B00B82896 /* SurLaMine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF5A89A11EE277B00B82896 /* SurLaMine.xib */; };
+		0FF5A93211EE376000B82896 /* logo-MinesParisTech-notext-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF5A93111EE376000B82896 /* logo-MinesParisTech-notext-black.png */; };
+		0FF5A93B11EE37B600B82896 /* anySIM.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF5A93A11EE37B600B82896 /* anySIM.png */; };
+		0FF7E90811F0D84600EAB5CD /* CreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF7E90611F0D84600EAB5CD /* CreditsViewController.m */; };
+		0FF7E90911F0D84600EAB5CD /* CreditsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF7E90711F0D84600EAB5CD /* CreditsViewController.xib */; };
+		0FFFF3D1122D75D60018E5F5 /* TeamTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFF3D0122D75D60018E5F5 /* TeamTVC.m */; };
+		0FFFF3DA122D76780018E5F5 /* EcrireAuBDEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFF3D8122D76780018E5F5 /* EcrireAuBDEViewController.m */; };
+		0FFFF3DB122D76780018E5F5 /* EcrireAuBDEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FFFF3D9122D76780018E5F5 /* EcrireAuBDEViewController.xib */; };
+		0FFFF3DE122D76D40018E5F5 /* EntreprisesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFF3DD122D76D40018E5F5 /* EntreprisesTVC.m */; };
+		1D3623260D0F684500981E51 /* iMines_1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iMines_1AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F008EB711EF16540012D84E /* logo_MP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_MP.png; sourceTree = "<group>"; };
+		0F0CCF55124119ED002C8C08 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0F0CCF57124119F8002C8C08 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0F0CCF5912411A00002C8C08 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0F0CCF5B12411A1A002C8C08 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		0F0CD09212412443002C8C08 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		0F0CD09312412443002C8C08 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		0F0CD09412412443002C8C08 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		0F0CD09512412443002C8C08 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		0F0CD09612412443002C8C08 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		0F0CD09712412443002C8C08 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		0F0CD09812412443002C8C08 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		0F0CD09912412443002C8C08 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		0F0CD09A12412443002C8C08 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		0F0CD09B12412443002C8C08 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		0F0CD09C12412443002C8C08 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		0F0CD09D12412443002C8C08 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		0F0CD09E12412443002C8C08 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		0F0CD09F12412443002C8C08 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		0F0CD0A012412443002C8C08 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		0F0CD0A112412443002C8C08 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		0F0CD0A212412443002C8C08 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0F0CD0A312412443002C8C08 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0F0CD0E112415E9C002C8C08 /* histoire.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = histoire.html; path = ../../contenu/histoire.html; sourceTree = SOURCE_ROOT; };
+		0F0CD10112416BA6002C8C08 /* effectifs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = effectifs.html; path = ../../contenu/effectifs.html; sourceTree = SOURCE_ROOT; };
+		0F0E823B11F88EED00F000F3 /* LaDirectionTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaDirectionTVC.h; sourceTree = "<group>"; };
+		0F0E823C11F88EED00F000F3 /* LaDirectionTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaDirectionTVC.m; sourceTree = "<group>"; };
+		0F0F912A11F6E3A700155287 /* partenairesinternationaux.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = partenairesinternationaux.html; sourceTree = "<group>"; };
+		0F0F912B11F6E3A700155287 /* partenairesnationaux.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = partenairesnationaux.html; sourceTree = "<group>"; };
+		0F0F912F11F6E3A700155287 /* reseaux.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = reseaux.html; sourceTree = "<group>"; };
+		0F0F916211F6E58D00155287 /* CarrieresTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarrieresTVC.h; sourceTree = "<group>"; };
+		0F0F916311F6E58D00155287 /* CarrieresTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarrieresTVC.m; sourceTree = "<group>"; };
+		0F0F91FB11F6EE3500155287 /* ChiffresCles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChiffresCles.h; sourceTree = "<group>"; };
+		0F0F91FC11F6EE3500155287 /* ChiffresCles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChiffresCles.m; sourceTree = "<group>"; };
+		0F0F923111F6F6CC00155287 /* budget.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = budget.html; sourceTree = "<group>"; };
+		0F0F923211F6F6CC00155287 /* budget.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = budget.jpg; sourceTree = "<group>"; };
+		0F0F925F11F6F8A900155287 /* budget.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = budget.pdf; sourceTree = "<group>"; };
+		0F0F926111F6F98700155287 /* budget.rtfd.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = budget.rtfd.zip; sourceTree = "<group>"; };
+		0F0F926311F6F9DD00155287 /* DocumentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		0F0F926411F6F9DD00155287 /* DocumentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		0F0F926511F6F9DD00155287 /* DocumentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DocumentViewController.xib; sourceTree = "<group>"; };
+		0F0F929011F6FCAB00155287 /* implantations.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = implantations.html; sourceTree = "<group>"; };
+		0F0F957511F8AE220004DED5 /* Direction.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Direction.plist; sourceTree = "<group>"; };
+		0F110FF211EE04550056AC6E /* PublicAccueilViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PublicAccueilViewController.h; path = Classes/PublicAccueilViewController.h; sourceTree = "<group>"; };
+		0F110FF311EE04550056AC6E /* PublicAccueilViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PublicAccueilViewController.m; path = Classes/PublicAccueilViewController.m; sourceTree = "<group>"; };
+		0F110FF411EE04550056AC6E /* PublicAccueilViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PublicAccueilViewController.xib; path = Classes/PublicAccueilViewController.xib; sourceTree = "<group>"; };
+		0F15080D1201D89E007781CF /* PlanContactVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanContactVC.h; sourceTree = "<group>"; };
+		0F15080E1201D89E007781CF /* PlanContactVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanContactVC.m; sourceTree = "<group>"; };
+		0F15080F1201D89E007781CF /* PlanContactVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlanContactVC.xib; sourceTree = "<group>"; };
+		0F15083C1201DC2F007781CF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0F15088F1201E4FD007781CF /* AnnotationMines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationMines.h; sourceTree = "<group>"; };
+		0F1508901201E4FD007781CF /* AnnotationMines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationMines.m; sourceTree = "<group>"; };
+		0F17D99C11FA3EB700ED5D61 /* SplashScreen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SplashScreen2.png; sourceTree = "<group>"; };
+		0F290F771204717D003DB454 /* StandardWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardWebView.h; sourceTree = "<group>"; };
+		0F290F781204717D003DB454 /* StandardWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardWebView.m; sourceTree = "<group>"; };
+		0F290F791204717D003DB454 /* StandardWebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StandardWebView.xib; sourceTree = "<group>"; };
+		0F2E715611F076E500263C77 /* iMines-icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iMines-icon-2.png"; sourceTree = "<group>"; };
+		0F3ACB46129BE569002D52B1 /* athens.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = athens.html; sourceTree = "<group>"; };
+		0F3ACB47129BE569002D52B1 /* etudiants-etrangers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "etudiants-etrangers.html"; sourceTree = "<group>"; };
+		0F3ACB48129BE569002D52B1 /* S3-etranger.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "S3-etranger.html"; sourceTree = "<group>"; };
+		0F44972512BCDC2B000A6027 /* icon_moru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_moru.png; sourceTree = "<group>"; };
+		0F44972712BCDC56000A6027 /* icon_zambinou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon_zambinou.jpg; sourceTree = "<group>"; };
+		0F44972812BCDC56000A6027 /* icon_MineShake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_MineShake.png; sourceTree = "<group>"; };
+		0F44972912BCDC56000A6027 /* icon_kalimat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_kalimat.png; sourceTree = "<group>"; };
+		0F44972A12BCDC56000A6027 /* icon_ceres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_ceres.png; sourceTree = "<group>"; };
+		0F44972F12BCDC94000A6027 /* article_jump.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = article_jump.html; sourceTree = "<group>"; };
+		0F44973112BCDCA8000A6027 /* icon_jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_jump.png; sourceTree = "<group>"; };
+		0F44973912BCDD75000A6027 /* icone_biero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icone_biero.png; sourceTree = "<group>"; };
+		0F4895531260B2A300BD2E3F /* carrieres-administration.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "carrieres-administration.html"; sourceTree = "<group>"; };
+		0F4895541260B2A300BD2E3F /* carrieres-industrie.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "carrieres-industrie.html"; sourceTree = "<group>"; };
+		0F4895551260B2A300BD2E3F /* carrieres-politiques.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "carrieres-politiques.html"; sourceTree = "<group>"; };
+		0F4895561260B2A300BD2E3F /* carrieres-sciences.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "carrieres-sciences.html"; sourceTree = "<group>"; };
+		0F4895681260B5EF00BD2E3F /* logo_MP_inv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_MP_inv.png; sourceTree = "<group>"; };
+		0F48956D1260C36C00BD2E3F /* anciens.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = anciens.html; sourceTree = "<group>"; };
+		0F4895A01260C8D100BD2E3F /* paristech.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = paristech.html; sourceTree = "<group>"; };
+		0F4895A11260C8D100BD2E3F /* institut-carnot.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "institut-carnot.html"; sourceTree = "<group>"; };
+		0F4895A21260C8D100BD2E3F /* gem.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gem.html; sourceTree = "<group>"; };
+		0F4895A31260C8D100BD2E3F /* armines.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = armines.html; sourceTree = "<group>"; };
+		0F4895AE1260C9D300BD2E3F /* carnot-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "carnot-small.png"; sourceTree = "<group>"; };
+		0F4895BA1260CD6400BD2E3F /* RechercheTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RechercheTVC.h; sourceTree = "<group>"; };
+		0F4895BB1260CD6400BD2E3F /* RechercheTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RechercheTVC.m; sourceTree = "<group>"; };
+		0F57012B123CD21600451246 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		0F570171123D0B6F00451246 /* PetitCoursCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetitCoursCell.xib; sourceTree = "<group>"; };
+		0F570197123D111500451246 /* InscriptionPetitCoursVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InscriptionPetitCoursVC.h; sourceTree = "<group>"; };
+		0F570198123D111500451246 /* InscriptionPetitCoursVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InscriptionPetitCoursVC.m; sourceTree = "<group>"; };
+		0F570199123D111500451246 /* InscriptionPetitCoursVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InscriptionPetitCoursVC.xib; sourceTree = "<group>"; };
+		0F5C50661204A1DE00286C4B /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		0F60738A129D233600D16182 /* article_biero.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = article_biero.html; sourceTree = "<group>"; };
+		0F60738C129D236100D16182 /* Article_zambinou.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Article_zambinou.html; sourceTree = "<group>"; };
+		0F60738D129D236100D16182 /* Article_Moru.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Article_Moru.html; sourceTree = "<group>"; };
+		0F60738E129D236100D16182 /* Article_MineShake.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Article_MineShake.html; sourceTree = "<group>"; };
+		0F60738F129D236100D16182 /* Article_kalimat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Article_kalimat.html; sourceTree = "<group>"; };
+		0F607390129D236100D16182 /* Article_CERES.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Article_CERES.html; sourceTree = "<group>"; };
+		0F66F8B311F613A0004645C8 /* GlobalTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalTabBarController.h; sourceTree = "<group>"; };
+		0F66F8B411F613A0004645C8 /* GlobalTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalTabBarController.m; sourceTree = "<group>"; };
+		0F66F90111F61C90004645C8 /* armines.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = armines.gif; sourceTree = "<group>"; };
+		0F66F90211F61C90004645C8 /* gem.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gem.gif; sourceTree = "<group>"; };
+		0F66F90311F61C90004645C8 /* ParisTech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ParisTech.png; sourceTree = "<group>"; };
+		0F77ACAC126B4D8F00412454 /* lms.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lms.html; sourceTree = "<group>"; };
+		0F77ACAD126B4D8F00412454 /* isige.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = isige.html; sourceTree = "<group>"; };
+		0F77ACAE126B4D8F00412454 /* csi.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = csi.html; sourceTree = "<group>"; };
+		0F77ACAF126B4D8F00412454 /* caor.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = caor.html; sourceTree = "<group>"; };
+		0F77ACB0126B4D8F00412454 /* cri.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cri.html; sourceTree = "<group>"; };
+		0F77ACB1126B4D8F00412454 /* crc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = crc.html; sourceTree = "<group>"; };
+		0F77ACB2126B4D8F00412454 /* cmm.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cmm.html; sourceTree = "<group>"; };
+		0F77ACB3126B4D8F00412454 /* cma.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cma.html; sourceTree = "<group>"; };
+		0F77ACB4126B4D8F00412454 /* cgs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cgs.html; sourceTree = "<group>"; };
+		0F77ACB5126B4D8F00412454 /* cerna.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cerna.html; sourceTree = "<group>"; };
+		0F77ACB6126B4D8F00412454 /* cep.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cep.html; sourceTree = "<group>"; };
+		0F77ACB7126B4D8F00412454 /* centre-materiaux.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "centre-materiaux.html"; sourceTree = "<group>"; };
+		0F77ACB8126B4D8F00412454 /* cas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cas.html; sourceTree = "<group>"; };
+		0F77ACB9126B4D8F00412454 /* cemef.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cemef.html; sourceTree = "<group>"; };
+		0F77ACBA126B4D8F00412454 /* cbio.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = cbio.html; sourceTree = "<group>"; };
+		0F77ACBB126B4D8F00412454 /* centre-geosciences.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "centre-geosciences.html"; sourceTree = "<group>"; };
+		0F7FCE43129AEBC300FBE36C /* IntegrerTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrerTVC.h; sourceTree = "<group>"; };
+		0F7FCE44129AEBC300FBE36C /* IntegrerTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrerTVC.m; sourceTree = "<group>"; };
+		0F7FCEC2129AF47B00FBE36C /* ast.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ast.html; sourceTree = "<group>"; };
+		0F7FCEC3129AF47B00FBE36C /* ccmp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ccmp.html; sourceTree = "<group>"; };
+		0F7FCEC4129AF47B00FBE36C /* corps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = corps.html; sourceTree = "<group>"; };
+		0F7FCEDC129AF4F000FBE36C /* MastersTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MastersTVC.h; sourceTree = "<group>"; };
+		0F7FCEDD129AF4F000FBE36C /* MastersTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MastersTVC.m; sourceTree = "<group>"; };
+		0F7FCEDF129AF5A000FBE36C /* generalitesMS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = generalitesMS.html; sourceTree = "<group>"; };
+		0F7FCEE0129AF5A000FBE36C /* MS_temps_partiel.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MS_temps_partiel.html; sourceTree = "<group>"; };
+		0F7FCEE1129AF5A000FBE36C /* MS_temps_plein.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MS_temps_plein.html; sourceTree = "<group>"; };
+		0F7FCEE2129AF5A000FBE36C /* postulerMS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = postulerMS.html; sourceTree = "<group>"; };
+		0F7FCF0B129AFA2600FBE36C /* candidatureDoctorat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = candidatureDoctorat.html; sourceTree = "<group>"; };
+		0F7FCF0C129AFA2700FBE36C /* inscriptionDoctorat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = inscriptionDoctorat.html; sourceTree = "<group>"; };
+		0F7FCF0D129AFA2700FBE36C /* nous-contacterDoctorat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "nous-contacterDoctorat.html"; sourceTree = "<group>"; };
+		0F7FCF0E129AFA2700FBE36C /* objectifs-et-orientationDoctorat.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "objectifs-et-orientationDoctorat.html"; sourceTree = "<group>"; };
+		0F7FCF13129AFA3700FBE36C /* DoctoratsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctoratsTVC.h; sourceTree = "<group>"; };
+		0F7FCF14129AFA3700FBE36C /* DoctoratsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctoratsTVC.m; sourceTree = "<group>"; };
+		0F8AD9A711F231BD0013D561 /* ReseauxTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReseauxTableViewController.h; sourceTree = "<group>"; };
+		0F8AD9A811F231BD0013D561 /* ReseauxTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReseauxTableViewController.m; sourceTree = "<group>"; };
+		0F9450B3125E18A400817DC4 /* Trombi.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Trombi.xcdatamodel; sourceTree = "<group>"; };
+		0F9450C1125E18C700817DC4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0F9450C9125E273F00817DC4 /* Eleve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eleve.h; sourceTree = "<group>"; };
+		0F9450CA125E273F00817DC4 /* Eleve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eleve.m; sourceTree = "<group>"; };
+		0FB54D52122D822A0054AE92 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "Resources-iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		0FC0549F122C3D04000D1C57 /* PriveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PriveViewController.h; path = Classes/PriveViewController.h; sourceTree = "<group>"; };
+		0FC054A0122C3D04000D1C57 /* PriveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PriveViewController.m; path = Classes/PriveViewController.m; sourceTree = "<group>"; };
+		0FC054A1122C3D04000D1C57 /* PriveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PriveViewController.xib; path = Classes/PriveViewController.xib; sourceTree = "<group>"; };
+		0FCD906B124673C800819206 /* DirectionZoomVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionZoomVC.h; sourceTree = "<group>"; };
+		0FCD906C124673C800819206 /* DirectionZoomVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionZoomVC.m; sourceTree = "<group>"; };
+		0FCD906D124673C800819206 /* DirectionZoomVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DirectionZoomVC.xib; sourceTree = "<group>"; };
+		0FCD9DFC122D2E05002290A0 /* VDMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VDMViewController.h; sourceTree = "<group>"; };
+		0FCD9DFD122D2E05002290A0 /* VDMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VDMViewController.m; sourceTree = "<group>"; };
+		0FCD9DFE122D2E05002290A0 /* VDMViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VDMViewController.xib; sourceTree = "<group>"; };
+		0FCD9E06122D2E96002290A0 /* BDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDEViewController.h; sourceTree = "<group>"; };
+		0FCD9E07122D2E96002290A0 /* BDEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDEViewController.m; sourceTree = "<group>"; };
+		0FCD9E08122D2E96002290A0 /* BDEViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDEViewController.xib; sourceTree = "<group>"; };
+		0FCD9E0E122D2F92002290A0 /* BDSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDSViewController.h; sourceTree = "<group>"; };
+		0FCD9E0F122D2F92002290A0 /* BDSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDSViewController.m; sourceTree = "<group>"; };
+		0FCD9E10122D2F92002290A0 /* BDSViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDSViewController.xib; sourceTree = "<group>"; };
+		0FCD9E13122D30C8002290A0 /* BDAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDAViewController.h; sourceTree = "<group>"; };
+		0FCD9E14122D30C8002290A0 /* BDAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDAViewController.m; sourceTree = "<group>"; };
+		0FCD9E15122D30C8002290A0 /* BDAViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BDAViewController.xib; sourceTree = "<group>"; };
+		0FCD9E18122D30D7002290A0 /* VendomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VendomeViewController.h; sourceTree = "<group>"; };
+		0FCD9E19122D30D7002290A0 /* VendomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VendomeViewController.m; sourceTree = "<group>"; };
+		0FCD9E1A122D30D7002290A0 /* VendomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VendomeViewController.xib; sourceTree = "<group>"; };
+		0FCD9E22122D30FB002290A0 /* TrombiTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrombiTVC.h; sourceTree = "<group>"; };
+		0FCD9E23122D30FB002290A0 /* TrombiTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrombiTVC.m; sourceTree = "<group>"; };
+		0FCD9E24122D30FB002290A0 /* TrombiTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrombiTVC.xib; sourceTree = "<group>"; };
+		0FCD9E27122D3113002290A0 /* EmploiDuTempsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmploiDuTempsTVC.h; sourceTree = "<group>"; };
+		0FCD9E28122D3113002290A0 /* EmploiDuTempsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmploiDuTempsTVC.m; sourceTree = "<group>"; };
+		0FCD9E29122D3113002290A0 /* EmploiDuTempsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmploiDuTempsTVC.xib; sourceTree = "<group>"; };
+		0FCD9E2C122D313B002290A0 /* SGSTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSTVC.h; sourceTree = "<group>"; };
+		0FCD9E2D122D313B002290A0 /* SGSTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSTVC.m; sourceTree = "<group>"; };
+		0FCD9E2E122D313B002290A0 /* SGSTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGSTVC.xib; sourceTree = "<group>"; };
+		0FCD9E33122D3155002290A0 /* CalendrierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendrierViewController.h; sourceTree = "<group>"; };
+		0FCD9E34122D3155002290A0 /* CalendrierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendrierViewController.m; sourceTree = "<group>"; };
+		0FCD9E35122D3155002290A0 /* CalendrierViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendrierViewController.xib; sourceTree = "<group>"; };
+		0FCD9E38122D3167002290A0 /* AssosTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssosTVC.h; sourceTree = "<group>"; };
+		0FCD9E39122D3167002290A0 /* AssosTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssosTVC.m; sourceTree = "<group>"; };
+		0FCD9E3A122D3167002290A0 /* AssosTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AssosTVC.xib; sourceTree = "<group>"; };
+		0FCD9E3F122D3179002290A0 /* PetitsCoursTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PetitsCoursTVC.h; sourceTree = "<group>"; };
+		0FCD9E40122D3179002290A0 /* PetitsCoursTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PetitsCoursTVC.m; sourceTree = "<group>"; };
+		0FCD9E41122D3179002290A0 /* PetitsCoursTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetitsCoursTVC.xib; sourceTree = "<group>"; };
+		0FD6DD6F11F607B200EC669B /* HTMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTMLViewController.h; path = ../HTMLViewController.h; sourceTree = "<group>"; };
+		0FD6DD7011F607B200EC669B /* HTMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTMLViewController.m; path = ../HTMLViewController.m; sourceTree = "<group>"; };
+		0FD6DD7111F607B200EC669B /* HTMLViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HTMLViewController.xib; path = ../HTMLViewController.xib; sourceTree = "<group>"; };
+		0FDA9AB41202E668005EE5A7 /* ActualitesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActualitesTVC.h; sourceTree = "<group>"; };
+		0FDA9AB51202E668005EE5A7 /* ActualitesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActualitesTVC.m; sourceTree = "<group>"; };
+		0FDA9AB61202E668005EE5A7 /* ActualitesTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActualitesTVC.xib; sourceTree = "<group>"; };
+		0FDA9B9F120329DE005EE5A7 /* TweeterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweeterCell.h; sourceTree = "<group>"; };
+		0FDA9BA0120329DE005EE5A7 /* TweeterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweeterCell.m; sourceTree = "<group>"; };
+		0FDA9BA212032A62005EE5A7 /* TweeterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweeterCell.xib; sourceTree = "<group>"; };
+		0FDC9760126C673000D4D644 /* valeurs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = valeurs.html; sourceTree = "<group>"; };
+		0FDC979B126CE43D00D4D644 /* InternationalTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternationalTVC.h; sourceTree = "<group>"; };
+		0FDC979C126CE43D00D4D644 /* InternationalTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternationalTVC.m; sourceTree = "<group>"; };
+		0FDC97D2126CE84F00D4D644 /* cesure.html */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = text.html; path = cesure.html; sourceTree = "<group>"; };
+		0FDC97D4126CE84F00D4D644 /* partir-avec-ecole.html */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = text.html; path = "partir-avec-ecole.html"; sourceTree = "<group>"; };
+		0FF5A89811EE277B00B82896 /* SurLaMine.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = SurLaMine.h; sourceTree = "<group>"; };
+		0FF5A89911EE277B00B82896 /* SurLaMine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SurLaMine.m; sourceTree = "<group>"; };
+		0FF5A89A11EE277B00B82896 /* SurLaMine.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SurLaMine.xib; sourceTree = "<group>"; };
+		0FF5A93111EE376000B82896 /* logo-MinesParisTech-notext-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-MinesParisTech-notext-black.png"; sourceTree = "<group>"; };
+		0FF5A93A11EE37B600B82896 /* anySIM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = anySIM.png; sourceTree = "<group>"; };
+		0FF7E90511F0D84600EAB5CD /* CreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditsViewController.h; sourceTree = "<group>"; };
+		0FF7E90611F0D84600EAB5CD /* CreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditsViewController.m; sourceTree = "<group>"; };
+		0FF7E90711F0D84600EAB5CD /* CreditsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreditsViewController.xib; sourceTree = "<group>"; };
+		0FFFF3CF122D75D60018E5F5 /* TeamTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamTVC.h; sourceTree = "<group>"; };
+		0FFFF3D0122D75D60018E5F5 /* TeamTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamTVC.m; sourceTree = "<group>"; };
+		0FFFF3D7122D76780018E5F5 /* EcrireAuBDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EcrireAuBDEViewController.h; sourceTree = "<group>"; };
+		0FFFF3D8122D76780018E5F5 /* EcrireAuBDEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EcrireAuBDEViewController.m; sourceTree = "<group>"; };
+		0FFFF3D9122D76780018E5F5 /* EcrireAuBDEViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EcrireAuBDEViewController.xib; sourceTree = "<group>"; };
+		0FFFF3DC122D76D40018E5F5 /* EntreprisesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntreprisesTVC.h; sourceTree = "<group>"; };
+		0FFFF3DD122D76D40018E5F5 /* EntreprisesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntreprisesTVC.m; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iMines_1AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMines_1AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iMines_1AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iMines_1AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iMines-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iMines-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iMines_1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iMines_1_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iMines_1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iMines_1-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				0F15083D1201DC2F007781CF /* MapKit.framework in Frameworks */,
+				0F57012C123CD21600451246 /* MessageUI.framework in Frameworks */,
+				0F0CCF56124119ED002C8C08 /* CFNetwork.framework in Frameworks */,
+				0F0CCF58124119F8002C8C08 /* SystemConfiguration.framework in Frameworks */,
+				0F0CCF5A12411A00002C8C08 /* MobileCoreServices.framework in Frameworks */,
+				0F0CCF5C12411A1A002C8C08 /* libz.1.2.3.dylib in Frameworks */,
+				0F9450C2125E18C700817DC4 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F66F8B311F613A0004645C8 /* GlobalTabBarController.h */,
+				0F66F8B411F613A0004645C8 /* GlobalTabBarController.m */,
+				1D3623240D0F684500981E51 /* iMines_1AppDelegate.h */,
+				1D3623250D0F684500981E51 /* iMines_1AppDelegate.m */,
+				0FD6DD6F11F607B200EC669B /* HTMLViewController.h */,
+				0FD6DD7011F607B200EC669B /* HTMLViewController.m */,
+				0FD6DD7111F607B200EC669B /* HTMLViewController.xib */,
+				0F0F926311F6F9DD00155287 /* DocumentViewController.h */,
+				0F0F926411F6F9DD00155287 /* DocumentViewController.m */,
+				0F0F926511F6F9DD00155287 /* DocumentViewController.xib */,
+				0F290F771204717D003DB454 /* StandardWebView.h */,
+				0F290F781204717D003DB454 /* StandardWebView.m */,
+				0F290F791204717D003DB454 /* StandardWebView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0F008E5B11EF0BD00012D84E /* Sur La Mine */ = {
+			isa = PBXGroup;
+			children = (
+				0F0F957511F8AE220004DED5 /* Direction.plist */,
+				0F0F91D811F6ECE300155287 /* HTML */,
+				0F0E823B11F88EED00F000F3 /* LaDirectionTVC.h */,
+				0F0E823C11F88EED00F000F3 /* LaDirectionTVC.m */,
+				0FCD906B124673C800819206 /* DirectionZoomVC.h */,
+				0FCD906C124673C800819206 /* DirectionZoomVC.m */,
+				0FCD906D124673C800819206 /* DirectionZoomVC.xib */,
+				0FF5A89911EE277B00B82896 /* SurLaMine.m */,
+				0FF5A89811EE277B00B82896 /* SurLaMine.h */,
+				0FF5A89A11EE277B00B82896 /* SurLaMine.xib */,
+				0F8AD9A711F231BD0013D561 /* ReseauxTableViewController.h */,
+				0F8AD9A811F231BD0013D561 /* ReseauxTableViewController.m */,
+				0F0F916211F6E58D00155287 /* CarrieresTVC.h */,
+				0F0F916311F6E58D00155287 /* CarrieresTVC.m */,
+				0F0F91FB11F6EE3500155287 /* ChiffresCles.h */,
+				0F0F91FC11F6EE3500155287 /* ChiffresCles.m */,
+				0F4895BA1260CD6400BD2E3F /* RechercheTVC.h */,
+				0F4895BB1260CD6400BD2E3F /* RechercheTVC.m */,
+				0FDC979B126CE43D00D4D644 /* InternationalTVC.h */,
+				0FDC979C126CE43D00D4D644 /* InternationalTVC.m */,
+			);
+			name = "Sur La Mine";
+			sourceTree = "<group>";
+		};
+		0F0F912911F6E2BA00155287 /* icones */ = {
+			isa = PBXGroup;
+			children = (
+				0F4895AE1260C9D300BD2E3F /* carnot-small.png */,
+				0F66F90111F61C90004645C8 /* armines.gif */,
+				0F66F90211F61C90004645C8 /* gem.gif */,
+				0F66F90311F61C90004645C8 /* ParisTech.png */,
+			);
+			name = icones;
+			sourceTree = "<group>";
+		};
+		0F0F91D811F6ECE300155287 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				0F3ACB46129BE569002D52B1 /* athens.html */,
+				0F3ACB47129BE569002D52B1 /* etudiants-etrangers.html */,
+				0F3ACB48129BE569002D52B1 /* S3-etranger.html */,
+				0FDC97D2126CE84F00D4D644 /* cesure.html */,
+				0FDC97D4126CE84F00D4D644 /* partir-avec-ecole.html */,
+				0F77ACAC126B4D8F00412454 /* lms.html */,
+				0F77ACAD126B4D8F00412454 /* isige.html */,
+				0F77ACAE126B4D8F00412454 /* csi.html */,
+				0F77ACAF126B4D8F00412454 /* caor.html */,
+				0F77ACB0126B4D8F00412454 /* cri.html */,
+				0F77ACB1126B4D8F00412454 /* crc.html */,
+				0F77ACB2126B4D8F00412454 /* cmm.html */,
+				0F77ACB3126B4D8F00412454 /* cma.html */,
+				0F77ACB4126B4D8F00412454 /* cgs.html */,
+				0F77ACB5126B4D8F00412454 /* cerna.html */,
+				0F77ACB6126B4D8F00412454 /* cep.html */,
+				0F77ACB7126B4D8F00412454 /* centre-materiaux.html */,
+				0F77ACB8126B4D8F00412454 /* cas.html */,
+				0F77ACB9126B4D8F00412454 /* cemef.html */,
+				0F77ACBA126B4D8F00412454 /* cbio.html */,
+				0F77ACBB126B4D8F00412454 /* centre-geosciences.html */,
+				0F4895A11260C8D100BD2E3F /* institut-carnot.html */,
+				0F4895A01260C8D100BD2E3F /* paristech.html */,
+				0F4895A21260C8D100BD2E3F /* gem.html */,
+				0F4895A31260C8D100BD2E3F /* armines.html */,
+				0F48956D1260C36C00BD2E3F /* anciens.html */,
+				0F4895531260B2A300BD2E3F /* carrieres-administration.html */,
+				0F4895541260B2A300BD2E3F /* carrieres-industrie.html */,
+				0F4895551260B2A300BD2E3F /* carrieres-politiques.html */,
+				0F4895561260B2A300BD2E3F /* carrieres-sciences.html */,
+				0F0CD10112416BA6002C8C08 /* effectifs.html */,
+				0F0F929011F6FCAB00155287 /* implantations.html */,
+				0F0F925F11F6F8A900155287 /* budget.pdf */,
+				0F0F923111F6F6CC00155287 /* budget.html */,
+				0F0F923211F6F6CC00155287 /* budget.jpg */,
+				0F0F926111F6F98700155287 /* budget.rtfd.zip */,
+				0F0CD0E112415E9C002C8C08 /* histoire.html */,
+				0F0F912A11F6E3A700155287 /* partenairesinternationaux.html */,
+				0F0F912B11F6E3A700155287 /* partenairesnationaux.html */,
+				0F0F912F11F6E3A700155287 /* reseaux.html */,
+				0FDC9760126C673000D4D644 /* valeurs.html */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+		0F44971712BCDAFD000A6027 /* icones */ = {
+			isa = PBXGroup;
+			children = (
+				0F44973912BCDD75000A6027 /* icone_biero.png */,
+				0F44973112BCDCA8000A6027 /* icon_jump.png */,
+				0F44972512BCDC2B000A6027 /* icon_moru.png */,
+				0F44972712BCDC56000A6027 /* icon_zambinou.jpg */,
+				0F44972812BCDC56000A6027 /* icon_MineShake.png */,
+				0F44972912BCDC56000A6027 /* icon_kalimat.png */,
+				0F44972A12BCDC56000A6027 /* icon_ceres.png */,
+			);
+			name = icones;
+			sourceTree = "<group>";
+		};
+		0F607382129D22DC00D16182 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				0F60738C129D236100D16182 /* Article_zambinou.html */,
+				0F60738D129D236100D16182 /* Article_Moru.html */,
+				0F60738E129D236100D16182 /* Article_MineShake.html */,
+				0F60738F129D236100D16182 /* Article_kalimat.html */,
+				0F607390129D236100D16182 /* Article_CERES.html */,
+				0F60738A129D233600D16182 /* article_biero.html */,
+				0F44972F12BCDC94000A6027 /* article_jump.html */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+		0F7FCE42129AEB9C00FBE36C /* Integrer */ = {
+			isa = PBXGroup;
+			children = (
+				0F7FCEBF129AF47000FBE36C /* HTML */,
+				0F7FCE43129AEBC300FBE36C /* IntegrerTVC.h */,
+				0F7FCE44129AEBC300FBE36C /* IntegrerTVC.m */,
+				0F7FCEDC129AF4F000FBE36C /* MastersTVC.h */,
+				0F7FCEDD129AF4F000FBE36C /* MastersTVC.m */,
+				0F7FCF13129AFA3700FBE36C /* DoctoratsTVC.h */,
+				0F7FCF14129AFA3700FBE36C /* DoctoratsTVC.m */,
+			);
+			name = Integrer;
+			sourceTree = "<group>";
+		};
+		0F7FCEBF129AF47000FBE36C /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				0F7FCEC2129AF47B00FBE36C /* ast.html */,
+				0F7FCEC3129AF47B00FBE36C /* ccmp.html */,
+				0F7FCEC4129AF47B00FBE36C /* corps.html */,
+				0F7FCEDF129AF5A000FBE36C /* generalitesMS.html */,
+				0F7FCEE0129AF5A000FBE36C /* MS_temps_partiel.html */,
+				0F7FCEE1129AF5A000FBE36C /* MS_temps_plein.html */,
+				0F7FCEE2129AF5A000FBE36C /* postulerMS.html */,
+				0F7FCF0B129AFA2600FBE36C /* candidatureDoctorat.html */,
+				0F7FCF0C129AFA2700FBE36C /* inscriptionDoctorat.html */,
+				0F7FCF0D129AFA2700FBE36C /* nous-contacterDoctorat.html */,
+				0F7FCF0E129AFA2700FBE36C /* objectifs-et-orientationDoctorat.html */,
+			);
+			name = HTML;
+			sourceTree = "<group>";
+		};
+		0FB54D51122D822A0054AE92 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				0FB54D52122D822A0054AE92 /* MainWindow-iPad.xib */,
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
+		0FCD9DF0122D2AF2002290A0 /* Prive */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9E65122D35BC002290A0 /* Petits Cours */,
+				0FCD9E64122D35B9002290A0 /* Assos */,
+				0FCD9E63122D35B2002290A0 /* Calendrier */,
+				0FCD9E62122D35AF002290A0 /* SGS */,
+				0FCD9E61122D35A7002290A0 /* Emploi du Temps */,
+				0FCD9E60122D35A3002290A0 /* Trombi */,
+				0FCD9E5F122D359F002290A0 /* Vendome */,
+				0FCD9E5E122D359B002290A0 /* BDA */,
+				0FCD9E5D122D3596002290A0 /* BDS */,
+				0FCD9E5C122D3589002290A0 /* BDE */,
+				0FCD9E5B122D3582002290A0 /* VDM */,
+				0FC0549F122C3D04000D1C57 /* PriveViewController.h */,
+				0FC054A0122C3D04000D1C57 /* PriveViewController.m */,
+				0FC054A1122C3D04000D1C57 /* PriveViewController.xib */,
+				0FFFF3CF122D75D60018E5F5 /* TeamTVC.h */,
+				0FFFF3D0122D75D60018E5F5 /* TeamTVC.m */,
+			);
+			name = Prive;
+			sourceTree = "<group>";
+		};
+		0FCD9E5B122D3582002290A0 /* VDM */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9DFC122D2E05002290A0 /* VDMViewController.h */,
+				0FCD9DFD122D2E05002290A0 /* VDMViewController.m */,
+				0FCD9DFE122D2E05002290A0 /* VDMViewController.xib */,
+			);
+			name = VDM;
+			sourceTree = "<group>";
+		};
+		0FCD9E5C122D3589002290A0 /* BDE */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9E06122D2E96002290A0 /* BDEViewController.h */,
+				0FCD9E07122D2E96002290A0 /* BDEViewController.m */,
+				0FCD9E08122D2E96002290A0 /* BDEViewController.xib */,
+				0FFFF3D7122D76780018E5F5 /* EcrireAuBDEViewController.h */,
+				0FFFF3D8122D76780018E5F5 /* EcrireAuBDEViewController.m */,
+				0FFFF3D9122D76780018E5F5 /* EcrireAuBDEViewController.xib */,
+				0FFFF3DC122D76D40018E5F5 /* EntreprisesTVC.h */,
+				0FFFF3DD122D76D40018E5F5 /* EntreprisesTVC.m */,
+			);
+			name = BDE;
+			sourceTree = "<group>";
+		};
+		0FCD9E5D122D3596002290A0 /* BDS */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9E0E122D2F92002290A0 /* BDSViewController.h */,
+				0FCD9E0F122D2F92002290A0 /* BDSViewController.m */,
+				0FCD9E10122D2F92002290A0 /* BDSViewController.xib */,
+			);
+			name = BDS;
+			sourceTree = "<group>";
+		};
+		0FCD9E5E122D359B002290A0 /* BDA */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9E13122D30C8002290A0 /* BDAViewController.h */,
+				0FCD9E14122D30C8002290A0 /* BDAViewController.m */,
+				0FCD9E15122D30C8002290A0 /* BDAViewController.xib */,
+			);
+			name = BDA;
+			sourceTree = "<group>";
+		};
+		0FCD9E5F122D359F002290A0 /* Vendome */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9E18122D30D7002290A0 /* VendomeViewController.h */,
+				0FCD9E19122D30D7002290A0 /* VendomeViewController.m */,
+				0FCD9E1A122D30D7002290A0 /* VendomeViewController.xib */,
+			);
+			name = Vendome;
+			sourceTree = "<group>";
+		};
+		0FCD9E60122D35A3002290A0 /* Trombi */ = {
+			isa = PBXGroup;
+			children = (
+				0F9450C9125E273F00817DC4 /* Eleve.h */,
+				0F9450CA125E273F00817DC4 /* Eleve.m */,
+				0FCD9E22122D30FB002290A0 /* TrombiTVC.h */,
+				0FCD9E23122D30FB002290A0 /* TrombiTVC.m */,
+				0FCD9E24122D30FB002290A0 /* TrombiTVC.xib */,
+				0F9450B3125E18A400817DC4 /* Trombi.xcdatamodel */,
+			);
+			name = Trombi;
+			sourceTree = "<group>";
+		};
+		0FCD9E61122D35A7002290A0 /* Emploi du Temps */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9E27122D3113002290A0 /* EmploiDuTempsTVC.h */,
+				0FCD9E28122D3113002290A0 /* EmploiDuTempsTVC.m */,
+				0FCD9E29122D3113002290A0 /* EmploiDuTempsTVC.xib */,
+			);
+			name = "Emploi du Temps";
+			sourceTree = "<group>";
+		};
+		0FCD9E62122D35AF002290A0 /* SGS */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9E2C122D313B002290A0 /* SGSTVC.h */,
+				0FCD9E2D122D313B002290A0 /* SGSTVC.m */,
+				0FCD9E2E122D313B002290A0 /* SGSTVC.xib */,
+			);
+			name = SGS;
+			sourceTree = "<group>";
+		};
+		0FCD9E63122D35B2002290A0 /* Calendrier */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9E33122D3155002290A0 /* CalendrierViewController.h */,
+				0FCD9E34122D3155002290A0 /* CalendrierViewController.m */,
+				0FCD9E35122D3155002290A0 /* CalendrierViewController.xib */,
+			);
+			name = Calendrier;
+			sourceTree = "<group>";
+		};
+		0FCD9E64122D35B9002290A0 /* Assos */ = {
+			isa = PBXGroup;
+			children = (
+				0F607382129D22DC00D16182 /* HTML */,
+				0FCD9E38122D3167002290A0 /* AssosTVC.h */,
+				0FCD9E39122D3167002290A0 /* AssosTVC.m */,
+				0FCD9E3A122D3167002290A0 /* AssosTVC.xib */,
+				0F44971712BCDAFD000A6027 /* icones */,
+			);
+			name = Assos;
+			sourceTree = "<group>";
+		};
+		0FCD9E65122D35BC002290A0 /* Petits Cours */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9E3F122D3179002290A0 /* PetitsCoursTVC.h */,
+				0FCD9E40122D3179002290A0 /* PetitsCoursTVC.m */,
+				0FCD9E41122D3179002290A0 /* PetitsCoursTVC.xib */,
+				0F570171123D0B6F00451246 /* PetitCoursCell.xib */,
+				0F570197123D111500451246 /* InscriptionPetitCoursVC.h */,
+				0F570198123D111500451246 /* InscriptionPetitCoursVC.m */,
+				0F570199123D111500451246 /* InscriptionPetitCoursVC.xib */,
+			);
+			name = "Petits Cours";
+			sourceTree = "<group>";
+		};
+		0FDA9A8F1202D43D005EE5A7 /* Plan&Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0F15080D1201D89E007781CF /* PlanContactVC.h */,
+				0F15080E1201D89E007781CF /* PlanContactVC.m */,
+				0F15080F1201D89E007781CF /* PlanContactVC.xib */,
+				0F15088F1201E4FD007781CF /* AnnotationMines.h */,
+				0F1508901201E4FD007781CF /* AnnotationMines.m */,
+			);
+			name = "Plan&Contact";
+			sourceTree = "<group>";
+		};
+		0FDA9AB31202E5CD005EE5A7 /* Actualites */ = {
+			isa = PBXGroup;
+			children = (
+				0FDA9AB41202E668005EE5A7 /* ActualitesTVC.h */,
+				0FDA9AB51202E668005EE5A7 /* ActualitesTVC.m */,
+				0FDA9AB61202E668005EE5A7 /* ActualitesTVC.xib */,
+				0FDA9B9F120329DE005EE5A7 /* TweeterCell.h */,
+				0FDA9BA0120329DE005EE5A7 /* TweeterCell.m */,
+				0FDA9BA212032A62005EE5A7 /* TweeterCell.xib */,
+			);
+			name = Actualites;
+			sourceTree = "<group>";
+		};
+		0FF5A88611EE273400B82896 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				0F008E5B11EF0BD00012D84E /* Sur La Mine */,
+				0FDA9A8F1202D43D005EE5A7 /* Plan&Contact */,
+				0F7FCE42129AEB9C00FBE36C /* Integrer */,
+				0FDA9AB31202E5CD005EE5A7 /* Actualites */,
+				0FF7E90511F0D84600EAB5CD /* CreditsViewController.h */,
+				0FF7E90611F0D84600EAB5CD /* CreditsViewController.m */,
+				0FF7E90711F0D84600EAB5CD /* CreditsViewController.xib */,
+				0F110FF211EE04550056AC6E /* PublicAccueilViewController.h */,
+				0F110FF311EE04550056AC6E /* PublicAccueilViewController.m */,
+				0F110FF411EE04550056AC6E /* PublicAccueilViewController.xib */,
+			);
+			name = Public;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iMines-1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0FCD9DF0122D2AF2002290A0 /* Prive */,
+				0FF5A88611EE273400B82896 /* Public */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				0FB54D51122D822A0054AE92 /* Resources-iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				0F15083C1201DC2F007781CF /* MapKit.framework */,
+				0F5C50661204A1DE00286C4B /* Settings.bundle */,
+				0F57012B123CD21600451246 /* MessageUI.framework */,
+				0F0CCF55124119ED002C8C08 /* CFNetwork.framework */,
+				0F0CCF57124119F8002C8C08 /* SystemConfiguration.framework */,
+				0F0CCF5912411A00002C8C08 /* MobileCoreServices.framework */,
+				0F0CCF5B12411A1A002C8C08 /* libz.1.2.3.dylib */,
+				0F9450C1125E18C700817DC4 /* CoreData.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* iMines_1_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CD09212412443002C8C08 /* ASIAuthenticationDialog.h */,
+				0F0CD09312412443002C8C08 /* ASIAuthenticationDialog.m */,
+				0F0CD09412412443002C8C08 /* ASICacheDelegate.h */,
+				0F0CD09512412443002C8C08 /* ASIDownloadCache.h */,
+				0F0CD09612412443002C8C08 /* ASIDownloadCache.m */,
+				0F0CD09712412443002C8C08 /* ASIFormDataRequest.h */,
+				0F0CD09812412443002C8C08 /* ASIFormDataRequest.m */,
+				0F0CD09912412443002C8C08 /* ASIHTTPRequest.h */,
+				0F0CD09A12412443002C8C08 /* ASIHTTPRequest.m */,
+				0F0CD09B12412443002C8C08 /* ASIHTTPRequestConfig.h */,
+				0F0CD09C12412443002C8C08 /* ASIHTTPRequestDelegate.h */,
+				0F0CD09D12412443002C8C08 /* ASIInputStream.h */,
+				0F0CD09E12412443002C8C08 /* ASIInputStream.m */,
+				0F0CD09F12412443002C8C08 /* ASINetworkQueue.h */,
+				0F0CD0A012412443002C8C08 /* ASINetworkQueue.m */,
+				0F0CD0A112412443002C8C08 /* ASIProgressDelegate.h */,
+				0F0CD0A212412443002C8C08 /* Reachability.h */,
+				0F0CD0A312412443002C8C08 /* Reachability.m */,
+				0F0F912911F6E2BA00155287 /* icones */,
+				0F17D99C11FA3EB700ED5D61 /* SplashScreen2.png */,
+				0F2E715611F076E500263C77 /* iMines-icon-2.png */,
+				0F008EB711EF16540012D84E /* logo_MP.png */,
+				0F4895681260B5EF00BD2E3F /* logo_MP_inv.png */,
+				0FF5A93A11EE37B600B82896 /* anySIM.png */,
+				0FF5A93111EE376000B82896 /* logo-MinesParisTech-notext-black.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iMines_1-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iMines-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iMines-1" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iMines-1";
+			productName = "iMines-1";
+			productReference = 1D6058910D05DD3D006BFB54 /* iMines-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Mines ParisTech";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iMines-1" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iMines-1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				0F110FF611EE04550056AC6E /* PublicAccueilViewController.xib in Resources */,
+				0FF5A89C11EE277B00B82896 /* SurLaMine.xib in Resources */,
+				0FF5A93211EE376000B82896 /* logo-MinesParisTech-notext-black.png in Resources */,
+				0FF5A93B11EE37B600B82896 /* anySIM.png in Resources */,
+				0F008EB811EF16540012D84E /* logo_MP.png in Resources */,
+				0F2E715711F076E500263C77 /* iMines-icon-2.png in Resources */,
+				0FF7E90911F0D84600EAB5CD /* CreditsViewController.xib in Resources */,
+				0FD6DD7311F607B200EC669B /* HTMLViewController.xib in Resources */,
+				0F66F90611F61C90004645C8 /* armines.gif in Resources */,
+				0F66F90711F61C90004645C8 /* gem.gif in Resources */,
+				0F66F90811F61C90004645C8 /* ParisTech.png in Resources */,
+				0F0F913011F6E3A700155287 /* partenairesinternationaux.html in Resources */,
+				0F0F913111F6E3A700155287 /* partenairesnationaux.html in Resources */,
+				0F0F913511F6E3A700155287 /* reseaux.html in Resources */,
+				0F0F923311F6F6CC00155287 /* budget.html in Resources */,
+				0F0F923411F6F6CC00155287 /* budget.jpg in Resources */,
+				0F0F926011F6F8A900155287 /* budget.pdf in Resources */,
+				0F0F926211F6F98700155287 /* budget.rtfd.zip in Resources */,
+				0F0F926711F6F9DD00155287 /* DocumentViewController.xib in Resources */,
+				0F0F929311F6FCAB00155287 /* implantations.html in Resources */,
+				0F0F957611F8AE220004DED5 /* Direction.plist in Resources */,
+				0F17D99D11FA3EB700ED5D61 /* SplashScreen2.png in Resources */,
+				0F1508111201D89E007781CF /* PlanContactVC.xib in Resources */,
+				0FDA9AB81202E668005EE5A7 /* ActualitesTVC.xib in Resources */,
+				0FDA9BA312032A62005EE5A7 /* TweeterCell.xib in Resources */,
+				0F290F7B1204717D003DB454 /* StandardWebView.xib in Resources */,
+				0F5C50671204A1DE00286C4B /* Settings.bundle in Resources */,
+				0FC054A3122C3D04000D1C57 /* PriveViewController.xib in Resources */,
+				0FCD9E00122D2E05002290A0 /* VDMViewController.xib in Resources */,
+				0FCD9E0A122D2E96002290A0 /* BDEViewController.xib in Resources */,
+				0FCD9E12122D2F92002290A0 /* BDSViewController.xib in Resources */,
+				0FCD9E17122D30C8002290A0 /* BDAViewController.xib in Resources */,
+				0FCD9E1C122D30D7002290A0 /* VendomeViewController.xib in Resources */,
+				0FCD9E26122D30FB002290A0 /* TrombiTVC.xib in Resources */,
+				0FCD9E2B122D3113002290A0 /* EmploiDuTempsTVC.xib in Resources */,
+				0FCD9E30122D313B002290A0 /* SGSTVC.xib in Resources */,
+				0FCD9E37122D3155002290A0 /* CalendrierViewController.xib in Resources */,
+				0FCD9E3C122D3167002290A0 /* AssosTVC.xib in Resources */,
+				0FCD9E43122D3179002290A0 /* PetitsCoursTVC.xib in Resources */,
+				0FFFF3DB122D76780018E5F5 /* EcrireAuBDEViewController.xib in Resources */,
+				0FB54D53122D822A0054AE92 /* MainWindow-iPad.xib in Resources */,
+				0F570172123D0B6F00451246 /* PetitCoursCell.xib in Resources */,
+				0F57019B123D111500451246 /* InscriptionPetitCoursVC.xib in Resources */,
+				0F0CD0E212415E9C002C8C08 /* histoire.html in Resources */,
+				0F0CD10212416BA6002C8C08 /* effectifs.html in Resources */,
+				0FCD906F124673C800819206 /* DirectionZoomVC.xib in Resources */,
+				0F4895571260B2A300BD2E3F /* carrieres-administration.html in Resources */,
+				0F4895581260B2A300BD2E3F /* carrieres-industrie.html in Resources */,
+				0F4895591260B2A300BD2E3F /* carrieres-politiques.html in Resources */,
+				0F48955A1260B2A300BD2E3F /* carrieres-sciences.html in Resources */,
+				0F4895691260B5EF00BD2E3F /* logo_MP_inv.png in Resources */,
+				0F48956E1260C36C00BD2E3F /* anciens.html in Resources */,
+				0F4895A41260C8D100BD2E3F /* paristech.html in Resources */,
+				0F4895A51260C8D100BD2E3F /* institut-carnot.html in Resources */,
+				0F4895A61260C8D100BD2E3F /* gem.html in Resources */,
+				0F4895A71260C8D100BD2E3F /* armines.html in Resources */,
+				0F4895AF1260C9D300BD2E3F /* carnot-small.png in Resources */,
+				0F77ACBC126B4D8F00412454 /* lms.html in Resources */,
+				0F77ACBD126B4D8F00412454 /* isige.html in Resources */,
+				0F77ACBE126B4D8F00412454 /* csi.html in Resources */,
+				0F77ACBF126B4D8F00412454 /* caor.html in Resources */,
+				0F77ACC0126B4D8F00412454 /* cri.html in Resources */,
+				0F77ACC1126B4D8F00412454 /* crc.html in Resources */,
+				0F77ACC2126B4D8F00412454 /* cmm.html in Resources */,
+				0F77ACC3126B4D8F00412454 /* cma.html in Resources */,
+				0F77ACC4126B4D8F00412454 /* cgs.html in Resources */,
+				0F77ACC5126B4D8F00412454 /* cerna.html in Resources */,
+				0F77ACC6126B4D8F00412454 /* cep.html in Resources */,
+				0F77ACC7126B4D8F00412454 /* centre-materiaux.html in Resources */,
+				0F77ACC8126B4D8F00412454 /* cas.html in Resources */,
+				0F77ACC9126B4D8F00412454 /* cemef.html in Resources */,
+				0F77ACCA126B4D8F00412454 /* cbio.html in Resources */,
+				0F77ACCB126B4D8F00412454 /* centre-geosciences.html in Resources */,
+				0FDC9761126C673100D4D644 /* valeurs.html in Resources */,
+				0FDC97D7126CE84F00D4D644 /* cesure.html in Resources */,
+				0FDC97D9126CE84F00D4D644 /* partir-avec-ecole.html in Resources */,
+				0F7FCEC5129AF47B00FBE36C /* ast.html in Resources */,
+				0F7FCEC6129AF47B00FBE36C /* ccmp.html in Resources */,
+				0F7FCEC7129AF47B00FBE36C /* corps.html in Resources */,
+				0F7FCEE3129AF5A000FBE36C /* generalitesMS.html in Resources */,
+				0F7FCEE4129AF5A000FBE36C /* MS_temps_partiel.html in Resources */,
+				0F7FCEE5129AF5A000FBE36C /* MS_temps_plein.html in Resources */,
+				0F7FCEE6129AF5A000FBE36C /* postulerMS.html in Resources */,
+				0F7FCF0F129AFA2700FBE36C /* candidatureDoctorat.html in Resources */,
+				0F7FCF10129AFA2700FBE36C /* inscriptionDoctorat.html in Resources */,
+				0F7FCF11129AFA2700FBE36C /* nous-contacterDoctorat.html in Resources */,
+				0F7FCF12129AFA2700FBE36C /* objectifs-et-orientationDoctorat.html in Resources */,
+				0F3ACB49129BE569002D52B1 /* athens.html in Resources */,
+				0F3ACB4A129BE569002D52B1 /* etudiants-etrangers.html in Resources */,
+				0F3ACB4B129BE569002D52B1 /* S3-etranger.html in Resources */,
+				0F60738B129D233600D16182 /* article_biero.html in Resources */,
+				0F607391129D236100D16182 /* Article_zambinou.html in Resources */,
+				0F607392129D236100D16182 /* Article_Moru.html in Resources */,
+				0F607393129D236100D16182 /* Article_MineShake.html in Resources */,
+				0F607394129D236100D16182 /* Article_kalimat.html in Resources */,
+				0F607395129D236100D16182 /* Article_CERES.html in Resources */,
+				0F44972612BCDC2B000A6027 /* icon_moru.png in Resources */,
+				0F44972B12BCDC56000A6027 /* icon_zambinou.jpg in Resources */,
+				0F44972C12BCDC56000A6027 /* icon_MineShake.png in Resources */,
+				0F44972D12BCDC56000A6027 /* icon_kalimat.png in Resources */,
+				0F44972E12BCDC56000A6027 /* icon_ceres.png in Resources */,
+				0F44973012BCDC94000A6027 /* article_jump.html in Resources */,
+				0F44973212BCDCA8000A6027 /* icon_jump.png in Resources */,
+				0F44973A12BCDD75000A6027 /* icone_biero.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iMines_1AppDelegate.m in Sources */,
+				0F110FF511EE04550056AC6E /* PublicAccueilViewController.m in Sources */,
+				0FF5A89B11EE277B00B82896 /* SurLaMine.m in Sources */,
+				0FF7E90811F0D84600EAB5CD /* CreditsViewController.m in Sources */,
+				0F8AD9AA11F231BD0013D561 /* ReseauxTableViewController.m in Sources */,
+				0FD6DD7211F607B200EC669B /* HTMLViewController.m in Sources */,
+				0F66F8B511F613A0004645C8 /* GlobalTabBarController.m in Sources */,
+				0F0F916511F6E58D00155287 /* CarrieresTVC.m in Sources */,
+				0F0F91FD11F6EE3500155287 /* ChiffresCles.m in Sources */,
+				0F0F926611F6F9DD00155287 /* DocumentViewController.m in Sources */,
+				0F0E823D11F88EED00F000F3 /* LaDirectionTVC.m in Sources */,
+				0F1508101201D89E007781CF /* PlanContactVC.m in Sources */,
+				0F1508911201E4FD007781CF /* AnnotationMines.m in Sources */,
+				0FDA9AB71202E668005EE5A7 /* ActualitesTVC.m in Sources */,
+				0FDA9BA1120329DE005EE5A7 /* TweeterCell.m in Sources */,
+				0F290F7A1204717D003DB454 /* StandardWebView.m in Sources */,
+				0FC054A2122C3D04000D1C57 /* PriveViewController.m in Sources */,
+				0FCD9DFF122D2E05002290A0 /* VDMViewController.m in Sources */,
+				0FCD9E09122D2E96002290A0 /* BDEViewController.m in Sources */,
+				0FCD9E11122D2F92002290A0 /* BDSViewController.m in Sources */,
+				0FCD9E16122D30C8002290A0 /* BDAViewController.m in Sources */,
+				0FCD9E1B122D30D7002290A0 /* VendomeViewController.m in Sources */,
+				0FCD9E25122D30FB002290A0 /* TrombiTVC.m in Sources */,
+				0FCD9E2A122D3113002290A0 /* EmploiDuTempsTVC.m in Sources */,
+				0FCD9E2F122D313B002290A0 /* SGSTVC.m in Sources */,
+				0FCD9E36122D3155002290A0 /* CalendrierViewController.m in Sources */,
+				0FCD9E3B122D3167002290A0 /* AssosTVC.m in Sources */,
+				0FCD9E42122D3179002290A0 /* PetitsCoursTVC.m in Sources */,
+				0FFFF3D1122D75D60018E5F5 /* TeamTVC.m in Sources */,
+				0FFFF3DA122D76780018E5F5 /* EcrireAuBDEViewController.m in Sources */,
+				0FFFF3DE122D76D40018E5F5 /* EntreprisesTVC.m in Sources */,
+				0F57019A123D111500451246 /* InscriptionPetitCoursVC.m in Sources */,
+				0F0CD0A412412443002C8C08 /* ASIAuthenticationDialog.m in Sources */,
+				0F0CD0A512412443002C8C08 /* ASIDownloadCache.m in Sources */,
+				0F0CD0A612412443002C8C08 /* ASIFormDataRequest.m in Sources */,
+				0F0CD0A712412443002C8C08 /* ASIHTTPRequest.m in Sources */,
+				0F0CD0A812412443002C8C08 /* ASIInputStream.m in Sources */,
+				0F0CD0A912412443002C8C08 /* ASINetworkQueue.m in Sources */,
+				0F0CD0AA12412443002C8C08 /* Reachability.m in Sources */,
+				0FCD906E124673C800819206 /* DirectionZoomVC.m in Sources */,
+				0F9450B4125E18A400817DC4 /* Trombi.xcdatamodel in Sources */,
+				0F9450CB125E273F00817DC4 /* Eleve.m in Sources */,
+				0F4895BC1260CD6400BD2E3F /* RechercheTVC.m in Sources */,
+				0FDC979D126CE43D00D4D644 /* InternationalTVC.m in Sources */,
+				0F7FCE45129AEBC300FBE36C /* IntegrerTVC.m in Sources */,
+				0F7FCEDE129AF4F000FBE36C /* MastersTVC.m in Sources */,
+				0F7FCF15129AFA3700FBE36C /* DoctoratsTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: francois de la Taste (6ZK3M6XR6Z)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../Downloads\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iMines_1_Prefix.pch;
+				INFOPLIST_FILE = "iMines_1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				PRODUCT_NAME = "iMines-1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "491244B1-8B18-4E17-AAC7-BB237388C9DA";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../../Downloads\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iMines_1_Prefix.pch;
+				INFOPLIST_FILE = "iMines_1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "iMines-1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iMines-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iMines-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

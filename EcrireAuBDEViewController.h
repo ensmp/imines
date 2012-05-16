@@ -1,0 +1,22 @@
+//
+//  EcrireAuBDEViewController.h
+//  iMines-1
+//
+//  Created by François de la Taste on 31/08/10.
+//  Copyright 2010 Mines ParisTech. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface EcrireAuBDEViewController : UIViewController <UITextViewDelegate, UITextFieldDelegate> {
+	
+	IBOutlet UITextField *objetTextField;
+	IBOutlet UITextView *contenuTextView;
+
+}
+
+@property (nonatomic, retain) IBOutlet UITextField *objetTextField;
+@property (nonatomic, retain) IBOutlet UITextView *contenuTextView;
+
+@end

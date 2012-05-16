@@ -1,0 +1,158 @@
+//
+//  PublicAccueilViewController.m
+//  iMines-1
+//
+//  Created by François de la Taste on 14/07/10.
+//  Copyright 2010 Mines ParisTech. All rights reserved.
+//
+
+#import "PublicAccueilViewController.h"
+#import "SurLaMine.h"
+#import "CreditsViewController.h"
+#import "PlanContactVC.h"
+#import "ActualitesTVC.h"
+#import "IntegrerTVC.h"
+
+@implementation PublicAccueilViewController
+
+-(IBAction)showNextView:(id)sender {
+	
+	UIButton *bouton = (UIButton *)sender;
+	NSLog(@"Bouton tag : %d", bouton.tag);
+	UIViewController *vc = [[UIViewController alloc] init];
+	
+	// on regarde quel bouton a envoyé l'action (voir header pour les constantes)
+
+	switch (bouton.tag) { 
+		case TAG_ACTUALITES:
+			NSLog(@"Actualités");
+			ActualitesTVC *atvc = [[ActualitesTVC alloc] init];
+			atvc.title = @"Actualités";
+			[self.navigationController pushViewController:atvc animated:YES];
+			[atvc release];
+			break;
+		case TAG_SURLAMINE:
+			NSLog(@"Sur La Mine");
+			SurLaMine *surlamine = [[SurLaMine alloc] init];
+			[self.navigationController pushViewController:surlamine animated:YES];
+			[surlamine release];
+			break;
+		case TAG_PLANCONTACT:
+			NSLog(@"Plan Contact");
+			PlanContactVC *pcvc = [[PlanContactVC alloc] init];
+			pcvc.title = @"Plan de situation";
+			[self.navigationController pushViewController:pcvc animated:YES];
+			[pcvc release];
+			break;
+		case TAG_PRESSE:
+			NSLog(@"Presse");
+			vc.title = @"Presse";
+			[self.navigationController pushViewController:vc animated:YES];			
+			break;
+		case TAG_CLASSEMENTS:
+			NSLog(@"Classements");
+			vc.title = @"Classements";
+			[self.navigationController pushViewController:vc animated:YES];			
+			break;
+		case TAG_ENTRERAUXMINES:
+			NSLog(@"Entrer aux Mines");
+			IntegrerTVC *integrertvc = [[IntegrerTVC alloc] initWithStyle:UITableViewStyleGrouped];
+			integrertvc.title = @"Integrer";
+			[self.navigationController pushViewController:integrertvc animated:YES];
+			[integrertvc release];
+			break;
+		case TAG_MUSEE:
+			NSLog(@"Musée");
+			vc.title = @"Musée de Minéralogie";
+			[self.navigationController pushViewController:vc animated:YES];
+			break;
+		case TAG_VIEDELECOLE:
+			NSLog(@"Vie de l'école");
+			vc.title = @"Vie de l'école";
+			[self.navigationController pushViewController:vc animated:YES];
+			break;
+		case TAG_AGENDA:
+			NSLog(@"Agenda");
+			vc.title = @"Agenda";
+			[self.navigationController pushViewController:vc animated:YES];
+			break;
+		default:
+			break;
+	}	
+	
+	[vc release];
+}
+// méthode invoquée lors de l'appui sur le bouton Crédits
+
+- (IBAction) showCredits {
+	CreditsViewController *creditsViewController = [[CreditsViewController alloc] init];
+	creditsViewController.title = @"Crédits";
+	creditsViewController.delegate = self; // on se désigne comme delegate pour ensuite dismiss depuis ici (voir méthode dismissCreditsIsAsked)
+	[creditsViewController setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
+	[self.navigationController presentModalViewController:creditsViewController animated:YES];
+	[creditsViewController release];
+	NSLog(@"Voici les crédits");
+	
+}
+
+- (void) dismissCreditsIsAsked {
+	// étant le delegate du modal view controller Credits, c'est à nous de le dismiss
+	[self dismissModalViewControllerAnimated:YES];
+}
+
+/*
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+ - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+ if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+ // Custom initialization
+ }
+ return self;
+ }
+ */
+
+
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+	
+	// on se met une image dans la tab bar... bizarre que ça ne soit pas dans le AppDelegate
+	UITabBarItem *item = [[UITabBarItem alloc] initWithTitle:@"Public" image:[UIImage imageNamed:@"logo-MinesParisTech-notext-black.png"] tag:0];
+	self.tabBarItem = item;
+	[item release];
+	// on ajoute le bouton pour voir les crédits
+	UIBarButtonItem *infoButton = [[UIBarButtonItem alloc] initWithTitle:@"Crédits" style:UIBarButtonItemStylePlain target:self action:@selector(showCredits)];
+	self.navigationItem.rightBarButtonItem = infoButton;
+	[infoButton release];
+	
+	
+	[super viewDidLoad];
+}
+
+
+
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (YES);
+}
+
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+
+@end

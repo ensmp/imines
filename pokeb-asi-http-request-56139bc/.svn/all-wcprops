@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc/LICENSE
+END
+DONORS
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc/DONORS
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc/.gitignore
+END
+strict.xcconfig
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc/strict.xcconfig
+END
+.gitattributes
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc/.gitattributes
+END
+.gitmodules
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc/.gitmodules
+END
+README.textile
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc/README.textile
+END
+set_version_number.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc/set_version_number.rb
+END
+clang.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/imines/!svn/ver/1/iMines-1/pokeb-asi-http-request-56139bc/clang.sh
+END

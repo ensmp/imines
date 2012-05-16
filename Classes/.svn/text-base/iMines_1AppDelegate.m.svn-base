@@ -1,0 +1,149 @@
+//
+//  iMines_1AppDelegate.m
+//  iMines-1
+//
+//  Created by François de la Taste on 14/07/10.
+//  Copyright Mines ParisTech 2010. All rights reserved.
+//
+
+#import "iMines_1AppDelegate.h"
+#import "PublicAccueilViewController.h"
+#import "GlobalTabBarController.h"
+#import "PriveViewController.h"
+
+@implementation iMines_1AppDelegate
+
+@synthesize window, tabBarController, publicNavigationController, priveNavigationController, contactViewController, calendrierViewController;
+
+
+#pragma mark -
+#pragma mark Application lifecycle
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+    
+    // Override point for customization after application launch.
+	
+	// On récupère les préférences systèmes pour l'application
+	NSUserDefaults *defaultSettings = [NSUserDefaults standardUserDefaults];
+	
+	// Création du tabBarController racine
+	
+	tabBarController = [[GlobalTabBarController alloc] init];
+	
+	// Remplissage partie publique
+	
+	publicNavigationController = [[UINavigationController alloc] init];
+	PublicAccueilViewController *publicAccueilViewController = [[PublicAccueilViewController alloc] init];
+	publicAccueilViewController.title = @"Accueil";
+	[publicNavigationController pushViewController:publicAccueilViewController animated:NO];
+	[publicAccueilViewController release];
+	
+	// Remplissage partie privée
+	
+	priveNavigationController = [[UINavigationController alloc] init];
+	PriveViewController *priveViewController = [[PriveViewController alloc] init];
+	priveViewController.title = @"Partie privée";
+
+	
+	
+	
+	UITabBarItem *itemPrive = [[UITabBarItem alloc] initWithTitle:@"Privé" image:[UIImage imageNamed:@"anySIM.png"] tag:1];
+	priveViewController.tabBarItem = itemPrive;
+	[itemPrive release];
+	
+	[priveNavigationController pushViewController:priveViewController animated:NO];
+	[priveViewController release];
+	
+	 // Remplissage Contact
+	
+	contactViewController = [[UIViewController alloc] init];
+	contactViewController.title = @"Formulaire de contact";
+	
+	// Remplissage Calendrier 
+	
+	calendrierViewController = [[UIViewController alloc] init];
+	calendrierViewController.title = @"Calendrier";
+	
+	// Remplissage du TabBar
+	
+	tabBarController.viewControllers = [NSArray arrayWithObjects:publicNavigationController, priveNavigationController, contactViewController, calendrierViewController, nil];
+	
+	// Ménage
+	[publicNavigationController release];
+	[priveNavigationController release];
+	[contactViewController release];
+	[calendrierViewController release];
+	
+	[window addSubview:tabBarController.view];
+	
+	// On sélectionne l'onglet en fonction des Application Settings (0->Public, 1->Privé)
+	
+	[tabBarController setSelectedIndex:[defaultSettings integerForKey:@"defaultView"]];
+	
+	// et c'est parti ...
+	[window makeKeyAndVisible];
+	
+	return YES;
+}
+
+
+- (void)applicationWillResignActive:(UIApplication *)application {
+    /*
+     Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+     Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+     */
+}
+
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    /*
+     Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+     If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
+     */
+}
+
+
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    /*
+     Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
+     */
+}
+
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+    /*
+     Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+     */
+}
+
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+    /*
+     Called when the application is about to terminate.
+     See also applicationDidEnterBackground:.
+     */
+}
+
+
+#pragma mark -
+#pragma mark Memory management
+
+- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
+    /*
+     Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
+     */
+}
+
+
+- (void)dealloc {
+	[tabBarController release];
+	[publicNavigationController release];
+	[priveNavigationController release];
+	[contactViewController release];
+	[calendrierViewController release];
+    [window release];
+    [super dealloc];
+}
+
+
+@end

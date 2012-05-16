@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Title</key>
+	<string>Préférences iMines</string>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>CCSI</string>
+			<key>FooterText</key>
+			<string>Les identifiants du centre de calcul</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Login</string>
+			<key>Key</key>
+			<string>login_ccsi</string>
+			<key>DefaultValue</key>
+			<string>08mineur</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Mot de passe</string>
+			<key>Key</key>
+			<string>password_ccsi</string>
+			<key>IsSecure</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Trombi</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Login</string>
+			<key>Key</key>
+			<string>login_trombi</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Mot de passe</string>
+			<key>IsSecure</key>
+			<true/>
+			<key>Key</key>
+			<string>password_trombi</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Emplois du temps</string>
+			<key>FooterText</key>
+			<string>Les identifiants génériques pour les EDT</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Login</string>
+			<key>Key</key>
+			<string>login_edt</string>
+			<key>DefaultValue</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Mot de passe</string>
+			<key>Key</key>
+			<string>password_edt</string>
+			<key>IsSecure</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Petits Cours</string>
+			<key>FooterText</key>
+			<string>Les identifiants pour accéder aux petits cours</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Login</string>
+			<key>Key</key>
+			<string>login_petitscours</string>
+			<key>DefaultValue</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Mot de passe</string>
+			<key>Key</key>
+			<string>password_petitscours</string>
+			<key>IsSecure</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Le Vendôme</string>
+			<key>FooterText</key>
+			<string>Les identifiants du Vendôme (mines-paris.eu)</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Login</string>
+			<key>Key</key>
+			<string>login_serveureleves</string>
+			<key>DefaultValue</key>
+			<string>vendome</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Mot de passe</string>
+			<key>Key</key>
+			<string>password_serveureleves</string>
+			<key>IsSecure</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>VDM</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Login</string>
+			<key>Key</key>
+			<string>login_vdm</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Mot de passe</string>
+			<key>Key</key>
+			<string>password_vdm</string>
+			<key>IsSecure</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

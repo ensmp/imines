@@ -1,0 +1,30 @@
+//
+//  PublicAccueilViewController.h
+//  iMines-1
+//
+//  Created by François de la Taste on 14/07/10.
+//  Copyright 2010 Mines ParisTech. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#define TAG_ACTUALITES 1
+#define TAG_SURLAMINE 2
+#define TAG_PLANCONTACT 3
+#define TAG_PRESSE 4
+#define TAG_CLASSEMENTS 5
+#define TAG_ENTRERAUXMINES 6
+#define TAG_MUSEE 7
+#define TAG_VIEDELECOLE 8
+#define TAG_AGENDA 9
+
+#import "CreditsViewController.h";
+
+@interface PublicAccueilViewController : UIViewController <CreditsViewControllerDelegate> {
+
+	
+	
+}
+
+-(IBAction)showNextView:(id)sender;
+-(IBAction)showCredits;
+@end
